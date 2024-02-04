@@ -10,7 +10,9 @@ The AOD (Animal Object Detection) dataset is a large-scale animal image dataset 
 Our dataset encompasses data from 18 different animal species, including livestock and wildlife. You can find a complete list of categories in [categories.yaml](https://github.com/islgl/AOD-dataset/blob/main/categories.yaml). It comprises a total of 35,054 images and 81,078 annotated bounding boxes, capturing scenes ranging from everyday life to zoos and wildlife environments.
 
 <div align="center">
-    <img src="./assets/plot.jpeg">
+        <img src="assets/images_distribution.svg" width="600">
+        <img src="assets/instances_distribution.svg" width="600">
+        <img src="assets/bboxes_distribution.svg" width="1200">
 </div>
 
 The dataset is organized in the YOLO data format, with each image having a corresponding `.txt` file containing bounding box annotations. For detailed information on YOLO data format, please refer to the [Ultralytics YOLOv5 documentation](https://docs.ultralytics.com/yolov5/tutorials/train_custom_data/#:~:text=download%20your%20dataset.-,Option%202%3A%20Create%20a%20Manual%20Dataset,-2.1%20Create%20dataset).
