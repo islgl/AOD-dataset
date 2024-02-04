@@ -1,7 +1,28 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+title: Animal Object Detection Dataset # name of the site
+author: Liu Guoli # name of site's author
+email: hi@lglgl.cc # email of site's author
+url: https://lglgl.cc # root address of the site
+baseurl: "/AOD-dataset" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  A wide-ranging and large-scale animal image dataset
 
-title: Animal Object Detection Dataset
-description: Wide-ranging and large-scale animal image dataset
-favicon: assets/logo.png
+# permalink: /:slug.html
+
+favicon: "assets/logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+# theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
