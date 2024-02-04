@@ -4,15 +4,15 @@
 
 .page-header {
     text-align: center;
-    /* 添加背景图片样式 */
-    background-image: url("./assets/dataset.png");
     /* 设置背景图片尺寸和其他样式 */
     background-size: cover;
     background-position: center;
     color: #fff;
     /* 设置文字颜色，以确保在背景上可读 */
     padding: 100px 0;
-    /* 根据需要设置顶部和底部内边距 */
+    background-color: aquamarine;
+    /* 添加背景图片样式 */
+    background-image: url("https: //cdn.jsdelivr.net/gh/islgl/img-hosting/imgs/AOD.png");
 }
 
 /* 添加其他自定义样式 */
