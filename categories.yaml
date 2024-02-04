@@ -1,0 +1,31 @@
+# Data categories
+0: bird
+1: cat
+2: dog
+3: horse
+4: sheep
+5: cow
+6: elephant
+7: bear
+8: zebra
+9: giraffe
+10: tiger
+11: antelope
+12: bobcat
+13: chimpanzee
+14: hippopotamus
+15: otter
+16: rhino
+17: panda
+
+# The following categories only appear in the AOD-Rare (AODR) dataset, and most of the names are in Latin.
+18: Red panda
+19: Martes flavigula
+20: Macaca thibetana
+21: Rhinopithecus roxellana
+22: Hystrix brachyura
+23: Sus scrofa
+24: Rusa unicolor
+25: Elaphodus cephalophus
+26: Capricornismilneedwardsii
+27: Pseudois nayaur
