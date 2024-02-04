@@ -11,7 +11,7 @@ The AOD (Animal Object Detection) dataset is a large-scale animal image dataset 
     <img src="./assets/dataset.png">
 </div>
 
-\
+
 
 Our dataset encompasses data from 18 different animal species, including livestock and wildlife. You can find a complete list of categories in [categories.yaml](https://github.com/islgl/AOD-dataset/blob/main/categories.yaml). It comprises a total of 35,054 images and 81,078 annotated bounding boxes, capturing scenes ranging from everyday life to zoos and wildlife environments.
 
