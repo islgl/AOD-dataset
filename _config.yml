@@ -4,3 +4,4 @@ plugins:
 
 title: Animal Object Detection Dataset
 description: Wide-ranging and large-scale animal image dataset
+favicon: assets/logo.png
