@@ -1,13 +1,39 @@
 --- 
 --- 
-
 @import "{{ site.theme }}";
 
 .page-header {
     text-align: center;
-    background-image: image("/dataset.png");
+    /* 添加背景图片样式 */
+    background-image: url("/dataset.png");
+    /* 设置背景图片尺寸和其他样式 */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* 设置文字颜色，以确保在背景上可读 */
+    padding: 100px 0;
+    /* 根据需要设置顶部和底部内边距 */
 }
 
-.footer{
-    display: none;
+.page-header .project-name {
+    font-size: 2em;
+    margin: 10px 0;
 }
+
+.page-header .project-tagline {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.page-header .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 添加其他自定义样式 */
