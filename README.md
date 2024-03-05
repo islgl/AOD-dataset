@@ -24,7 +24,7 @@ Our dataset encompasses data from 18 different animal species, including livesto
 The dataset is organized in the YOLO data format, with each image having a corresponding `.txt` file containing bounding box annotations. For detailed information on YOLO data format, please refer to the [Ultralytics YOLOv5 documentation](https://docs.ultralytics.com/yolov5/tutorials/train_custom_data/#:~:text=download%20your%20dataset.-,Option%202%3A%20Create%20a%20Manual%20Dataset,-2.1%20Create%20dataset).
 
 ## Download
-You can download the whole dataset from [Google Drive](https://drive.google.com/drive/folders/10qifTMvSSYeQLRCS9b650fMlthQCy9Mu?usp=sharing) or [OneDrive](https://yqsyw-my.sharepoint.com/:f:/g/personal/hi_lglgl_cc/EjEh8D0AuBVEsBVwe6fkbdcBKRCSZ7H65rtjhWZl1RK8SQ?e=T35lOi).
+You can download the whole dataset from [Google Drive](https://drive.google.com/drive/folders/10qifTMvSSYeQLRCS9b650fMlthQCy9Mu?usp=sharing), [OneDrive](https://yqsyw-my.sharepoint.com/:f:/g/personal/hi_lglgl_cc/EjEh8D0AuBVEsBVwe6fkbdcBKRCSZ7H65rtjhWZl1RK8SQ?e=T35lOi) or [BaiduNetdisk](https://pan.baidu.com/s/1aK550ukLqW3Men2C1Iec5Q?pwd=anxx).
 
 | Set        | Images | Instances |
 | ---------- | ------ | --------- |
